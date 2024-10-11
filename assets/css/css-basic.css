@@ -1,0 +1,25 @@
+p{
+    background-color: gray;
+}
+*{
+    color:blue;
+}
+h1{
+    background-color: rgb(225, 26, 136);
+}
+.name {
+    color:red
+}
+#greet {
+    background-color: aqua;
+}
+h1.greeting {
+    background-color: rgb(28, 153, 68);
+}
+ul li {
+    color: brown;
+}
+/* 下のやり方でもOK */
+/* .nav-links {
+    color:blanchedalmond
+} */

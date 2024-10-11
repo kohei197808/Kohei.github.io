@@ -1,0 +1,39 @@
+.header {
+    text-align:center;
+}
+
+.harry_potter {
+    text-decoration: underline;
+    color:purple;
+    text-shadow: 1px 1px 5px red;
+    letter-spacing:5px;
+}
+
+/* classの下の要素の指定の仕方 */
+.header a {
+    color:black;
+    font-weight: 700;
+}
+
+
+
+.chronological {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+/* どうやって文章の途中でboldをつけるか
+.chrono_publish span {
+    font-weight: bold;
+} */
+
+/* classの下にもう一つclassがある場合 */
+/* 2つの間にスペース(_)を入れること  .container .bold */
+.container .bold {
+    font-weight: 700;
+}
+.container .italic {
+    font-style: italic;
+    text-decoration: underline;
+}

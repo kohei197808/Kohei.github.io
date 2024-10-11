@@ -1,0 +1,86 @@
+.colorname{
+    color: brown;
+    font-family: serif;
+    font-size: 15px;
+    font-weight:700;
+}
+.rgb{
+    color:rgb(205, 72, 72);
+    font-size: 30px;
+    font-weight: bolder;
+}
+/* rgbaとタイプする */
+.rgba{
+    color:rgba(0, 0, 255,0.3);
+    font-size: 2em
+}
+/* Font-Style */
+.oblique {
+    font-family:sans-serif;
+    font-style: oblique;
+}
+.italic{
+    font-family:serif;
+    font-style:italic;
+}
+/* test-transform */
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform:lowercase; 
+}
+.capitalized {
+    text-transform: capitalize;
+}
+
+/* text-decoration */
+.none {
+    text-decoration: none;
+    color:black
+}
+.overline {
+    text-decoration: overline;
+}
+.underline {
+    text-decoration: underline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+
+/* text-align */
+.right{
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+/* text shadow */
+/* マイナスも使える */
+.shadow {
+    text-shadow: -10px 10px 3px seagreen;
+}
+
+/* text-indent */
+.indent-em{
+    text-indent: 1em;
+}
+.indent-percentage {
+    text-indent: 20%;
+}
+.indent-px{
+    text-indent: 20px;
+}
+
+/* Word-spacing */
+.word{
+    word-spacing: 5px;
+}
+/* letter-spacing */
+.letter {
+    letter-spacing:  10px;
+}

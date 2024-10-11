@@ -1,0 +1,16 @@
+.container{
+    width:1000px;
+    height:2000px;
+    background-image: url('../images/image_teine.jpg');
+    background-attachment:scroll;
+}
+body {
+    background-image: url('../images/Rabbit1.jpg');
+    background-repeat:no-repeat;
+    /* 他にもrepat-y（縦に並ぶ） repat-x（横に並ぶ） repeat（全面） */
+    /* background imageは通常repeatで表示される */
+    background-size:500px 500px;
+    background-position: center top;
+    background-attachment: fixed;
+
+}

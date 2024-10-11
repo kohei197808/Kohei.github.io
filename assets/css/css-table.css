@@ -1,0 +1,28 @@
+table {
+    width: 50%;
+    border: 5px solid blue;
+    empty-cells: hide;
+    /* border-collapse: collapse; */
+    /* border-collapse: separate;
+    border-spacing: 15px 40px; */
+}
+td,th {
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid darkcyan;
+    border: none;
+}
+
+/* カンマがないとpathrough awayとなる。直近のthのみにCSSとなる */
+table thead tr th{
+    color:navy;
+    border: 2px solid lightseagreen;
+}
+tr.odd {
+    background-color:blueviolet;
+    color:seagreen
+}
+tr.even{
+    background-color: orangered;
+    color: chartreuse;
+}

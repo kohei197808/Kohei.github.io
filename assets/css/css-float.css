@@ -1,0 +1,48 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    background: #eaeaea;
+    padding: 10px;
+    overflow: auto;
+    /* 重要！divの下にchildとなるdivを使う場合は overlow autoを必ず! */
+    /* floatしたelementでもキャッチ */
+}
+
+.box1{
+    /* width: 200px; */
+    width: 33.3%;
+    height: 200px;
+    background: salmon;
+    float: left;
+}
+
+.box2 {
+    /* width: 200px; */
+    width: 33.3%;
+    height: 200px;
+    background: seagreen;
+    float: left;
+}
+
+.box3 {
+    /* width: 200px; */
+    width: 33.3%;
+    height: 200px;
+    background: yellow;
+    float: left;
+
+}
+
+.box{
+    /* pxで絶対値を指定する代わりに%を使う */
+    /* 子供から見て100%を等分する。画面のサイズを変えても比率は変わらない */
+    /* width: 605px; */
+    width: 50%;
+    /* border: 1px solid black; */
+    margin:auto;
+    overflow:auto;
+}

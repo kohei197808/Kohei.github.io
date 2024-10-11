@@ -1,0 +1,22 @@
+/* 重要！！！！ */
+/* box-sizing を全てのtagに適用することでデザインを維持する */
+/* marginとpaddingを0とすること。例：<p>は自動的にmarginがつくので */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background:wheat;
+    padding: 20px;
+    /* paadingだと外側に広がるのでデザインがくずれる */
+    /* そのため、box-sizingを使う。dimentionを維持する */
+    /* box-sizing: border-box; */
+    
+    /* boxを自動的に中央位置にする　画面の左右から等しい距離 */
+    margin: auto;
+}

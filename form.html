@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML Form </title>
+</head>
+
+<body>
+    <form action="#" method="#">
+        <label for="first-name">First Name</label>
+        <input type="text" name="first_name" id="first-name" required>
+
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last_name" id="last-name">
+        <hr>
+
+        <label for="full-name"> Fullname </label>
+        <input type="text" name="full-name" id="full-name" placeholder="first middle, last">
+        <hr>
+
+        <label for="age"> Age </label>
+        <input type="number" name="age" id="age" max="10">
+        <hr>
+
+        <label for="email"> Email </label>
+        <input type="email" name="email" id="email">
+        <hr>
+
+        <label for="comments"> Comments </label><br>
+        <textarea name="comments" id="comments" cols="20" rows="5"></textarea>
+        <hr>
+
+        <p>Please select your favorite music genre:</p>
+        <input type="radio" name="music" id="rock" value="rock">
+        <label for="rock">Rock</label>
+
+        <input type="radio" name="music" id="pop" value="pop">
+        <label for="pop">Pop</label>
+
+        <input type="radio" name="music" id="jazz" value="jazz">
+        <label for="jazz">Jazz</label>
+        <hr>
+
+        <p>Please select your favorite food:</p>
+        <input type="checkbox" name="food" id="ramen" value="ramen">
+        <label for="ramen">Ramen</label>
+
+        <input type="checkbox" name="food" id="sushi" value="sushi">
+        <label for="sushi">Sushi</label>
+
+        <input type="checkbox" name="food" id="curry" value="curry">
+        <label for="curry">Curry</label>
+        <hr>
+
+        <label for="device">What is your device?</label>
+        <select name="device" id="device">
+            <option value="macbook">Macbook</option>
+            <option value="ipad">iPad</option>
+            <option value="iphone">iPhone</option>
+            <option value="samsung" selected>Galaxy</option>
+        </select>
+        <hr>
+
+        <label for="car">Select a car:</p>
+        <select name="car" id="car" multiple>
+            <option value="toyota">Toyota</option>
+            <option value="nissan">Nissan</option>
+            <option value="honda">Honda</option>
+        </select>
+        <hr>            
+
+        <input type="file" name="file"><hr>
+
+        <button name="btn_submit"> Submit </button>
+    </form>
+</body>
+
+</html>

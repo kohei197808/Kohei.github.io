@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-activity4</title>
+</head>
+<body>
+    <h1>Please fill this survey form</h1>
+    <!-- アラインを揃えるにはテーブルを使うこと -->
+      <table>
+       <tr>
+            <td><label for="first-name">First Name:</label></td>
+            <td><input type="text" name="first_name" id="first-name" placeholder="Saeki" required></td>
+            <td><label for="MI">MI:</label></td>
+            <td><input type="text" name="MI" id="MI" maxlength="1"></td>
+            <td><label for="last-name">Last Name:</label></td>
+            <td><input type="text" name ="last_name" id="last-name" placeholder="Kohei" required></td>
+        </tr>
+        <tr>
+            <td><label for="City">City:</label></td>
+            <td><input type="text" name="City" id="City"></td>
+            <td><label for="State">State:</label></td>
+            <td><input type="text" name="State" id="State"></td>
+            <td><label for="Zip-Code">Zip Code:</label></td>
+            <td><input type="text" name="Zip_Code" id="Zip-Code"></td>
+        </tr>
+  </table>
+  <br>choose a Sport:</br>
+  <input type="checkbox" name="sport" id="Basketball" value="Basketball">
+  <label for="Basketball">Basketball</label>
+  
+  <input type="checkbox" name="sport" id="Football" value="Football">
+  <label for="Football">Football</label>
+  
+  <input type="checkbox" name="sport" id="Hockey" value="Hockey">
+  <label for="Hockey">Hockey</label>
+  
+  <br>Choise a Year:</br>
+  
+  <input type="radio" name="choose a year" id="Freshman" value="Freshman">
+  <label for="Freshman">Freshman</label>
+  
+  <input type="radio" name="choose a year" id="Sphomore" value="Sphomore">
+  <label for="Sphomore">Sphomore</label>
+  
+  <input type="radio" name="choose a year" id="Junior" value="Junior">
+  <label for="Junior">Junior</label>
+  
+  <input type="radio" name="choose a year" id="Senior" value="Senior">
+  <label for="Senior">Senior</label>
+  <br>
+    <!-- リストからselectする場合は、<input type=>で種類を選ばない。selectタグを使う -->
+  <label for="foods">Select your favorite food:</label>
+  <br>
+  <!-- multipleで複数を選ぶ機能を持たせる -->
+  <select name="foods" id="foods" multiple >
+    <option value="Chips">Chips</option>
+    <option value="Pizza">Pizza</option>
+    <option value="Nachos">Nachos</option>
+  </select>
+  <br>
+  <!-- 枠の中にhintを記載するにはどうやってやる？placeholder使うべきだが今回はWorkしない -->
+  <textarea placeholder="Please" name="comments" id="comments" cols="50" rows="8">
+  </textarea>
+  <br>
+  <input type="submit" name="send_it" value="send it">
+  <input type="reset" value="clear it">
+</body>
+</html>
